@@ -1,2 +1,2 @@
-.gitignore code:                                                                                                                                                                                                                                                                   target/
+target/
 .mvn/
