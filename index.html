@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blossom Boutique</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f5;
+      color: #333;
+    }
+    header {
+      background-color: #f8c8dc;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #f1a7c5;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://source.unsplash.com/1600x600/?flowers,florist');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero h2 {
+      font-size: 3em;
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 250px;
+      overflow: hidden;
+      text-align: left;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-content {
+      padding: 15px;
+    }
+    .product-content h3 {
+      margin: 0 0 10px;
+    }
+    .product-content p {
+      margin: 0 0 15px;
+    }
+    .product-content button {
+      background-color: #f1a7c5;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .product-content button:hover {
+      background-color: #e38ab0;
+    }
+    footer {
+      background-color: #f8c8dc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    @media (max-width: 768px) {
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blossom Boutique</h1>
+    <p>Your one-stop floral destination</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Fresh Blooms Delivered Daily</h2>
+  </div>
+
+  <section class="section" id="shop">
+    <h2>Our Collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="c:\Users\Dell\Downloads\aicte pi\c pic\download.jpg" alt="Rose Bouquet">
+        <div class="product-content">
+          <h3>Rose Bouquet</h3>
+          <p>Elegant red roses for your special someone.</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="c:\Users\Dell\Downloads\aicte pi\c pic\download (1).jpg" alt="Tulip Delight">
+        <div class="product-content">
+          <h3>Tulip Delight</h3>
+          <p>Colorful tulips to brighten any day.</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="c:\Users\Dell\Downloads\aicte pi\c pic\images (1).jpg" alt="Sunflower Sunshine">
+        <div class="product-content">
+          <h3>Sunflower Sunshine</h3>
+          <p>Bring warmth with our sunflower arrangement.</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>At Blossom Boutique, we craft each bouquet with love and care, ensuring fresh and beautiful flowers for every occasion.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@blossomboutique.com | Phone: +91 98765 43210</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Blossom Boutique. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+            3
+
+
+
